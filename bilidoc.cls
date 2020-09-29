@@ -101,14 +101,14 @@
   \IfBooleanTF{#1}{
     \chapter*{#2~#3}
     \addcontentsline{toc}{chapter}{#2~#3}
-    \markboth{\large\ttfamily\emph{#2~#3}}{\large\ttfamily\emph{#2~#3}}
+    \markboth{\large\emph{#2~#3}}{\large\emph{#2~#3}}
   }{\chapter{#2~#3}\label{chapter:\thechapter}}
 }
 \NewDocumentCommand{\bisection}{s m m}{
   \IfBooleanTF{#1}{
     \section*{#2~#3}
     \addcontentsline{toc}{section}{#2~#3}
-    \markboth{\large\ttfamily\emph{#2~#3}}{\large\ttfamily\emph{#2~#3}}
+    \markboth{\large\emph{#2~#3}}{\large\emph{#2~#3}}
   }{\section{#2~#3}\label{section:\thesection}}
 }
 %\newcommand{\bisection}[2]{\section{#1~#2}\label{section:\thesection}}
